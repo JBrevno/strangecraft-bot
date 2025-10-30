@@ -2,7 +2,7 @@ import os
 import discord
 
 # Токен читается из переменной окружения BOT_TOKEN
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = "MTExNzY5NjQ1MTI2NzUzMDg2NA.GXATnW.wuv7SP7ISucz1o8tro-P6U1wmya9VMOlBz_1YA"
 if not TOKEN:
     raise SystemExit("❌ BOT_TOKEN не найден. Укажи его в переменной окружения или в /etc/default/strangecraft-bot")
 
